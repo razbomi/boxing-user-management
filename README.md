@@ -23,3 +23,10 @@ The following have values provided by heroku add-on
 [newrelic add-on|https://elements.heroku.com/addons/newrelic]
 
 [newrelic add-on java|https://devcenter.heroku.com/articles/newrelic#java-installation-and-configuration]
+
+# Java specifics
+
+https://devcenter.heroku.com/articles/java-support
+
+https://devcenter.heroku.com/articles/config-vars
+
