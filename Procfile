@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT -jar target/boxing-user-management.jar
+web: java $JAVA_OPTS -Dserver.port=$PORT -jar target/boxing-user-management.jar
