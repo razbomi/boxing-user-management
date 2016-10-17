@@ -1,4 +1,4 @@
-# micro-service
+# Central User Service (micro-service)
 
 Store postgres https://elements.heroku.com/addons/heroku-postgresql
 
@@ -10,7 +10,7 @@ Logs papertrail https://elements.heroku.com/addons/papertrail or
 
 #Blazemeter
 
-Add a (Blazemeter Taurus)[] test, make sure that your blasemeter is connected to Newrelic
+Add a (Blazemeter Taurus)[http://gettaurus.org/] test, make sure that your Blasemeter is connected to Newrelic
 
 ```
 ---
