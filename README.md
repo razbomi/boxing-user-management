@@ -8,7 +8,7 @@ Stats graphite https://elements.heroku.com/addons/hostedgraphite
 
 Logs papertrail https://elements.heroku.com/addons/papertrail or
 
-#Blazemeter
+# Blazemeter
 
 Add a (Blazemeter Taurus)[http://gettaurus.org/] test, make sure that your Blasemeter is connected to Newrelic
 
