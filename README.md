@@ -51,6 +51,8 @@ The following have values provided by heroku add-on
 
 https://docs.travis-ci.com/user/languages/java/
 
+Which one to use? https://coveralls.io/repos/new | https://codeclimate.com/ | https://sonarqube.com
+
 # Java specifics
 
 https://devcenter.heroku.com/articles/java-support

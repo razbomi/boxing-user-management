@@ -11,6 +11,15 @@
     <name>${project.artifactId}</name>
     <url>http://boxing-user-management.herokuapp.com</url>
 
+    <!--
+        Will need this
+        http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html#boot-features-testing-spring-boot-applications-with-spock
+        http://spockframework.org/spock/docs/1.1-rc-2/spock_primer.html
+    -->
+    <!--<properties>-->
+        <!--<spock.version>1.1-groovy-2.4-rc-2</spock.version>-->
+    <!--</properties>-->
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -24,6 +33,17 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <!-- Test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.spockframework</groupId>
+            <artifactId>spock-spring</artifactId>
+        </dependency>
+
+        <!-- Monitoring -->
         <dependency>
             <groupId>com.newrelic.agent.java</groupId>
             <artifactId>newrelic-agent</artifactId>
