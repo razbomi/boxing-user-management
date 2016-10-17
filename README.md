@@ -47,6 +47,10 @@ The following have values provided by heroku add-on
 
 [newrelic add-on java|https://devcenter.heroku.com/articles/newrelic#java-installation-and-configuration]
 
+# Deployment via Travis
+
+https://docs.travis-ci.com/user/languages/java/
+
 # Java specifics
 
 https://devcenter.heroku.com/articles/java-support
