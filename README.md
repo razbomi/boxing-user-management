@@ -1,10 +1,30 @@
 # micro-service
 
 Store postgres https://elements.heroku.com/addons/heroku-postgresql
+
 Monitor new-relic https://elements.heroku.com/addons/newrelic
+
 Stats graphite https://elements.heroku.com/addons/hostedgraphite
+
 Logs papertrail https://elements.heroku.com/addons/papertrail or
-Test blazemeter
+
+#Blazemeter
+
+Add a (Blazemeter Taurus)[] test, make sure that your blasemeter is connected to Newrelic
+
+```
+---
+execution:
+- concurrency: 10
+  ramp-up: 1s
+  hold-for: 1m
+  scenario: quick-test
+
+scenarios:
+  quick-test:
+    requests:
+    - https://boxing-user-management.herokuapp.com
+```
 
 #Newrelic Add-On
 
