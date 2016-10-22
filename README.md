@@ -53,6 +53,8 @@ https://docs.travis-ci.com/user/languages/java/
 
 Which one to use? https://coveralls.io/repos/new | https://codeclimate.com/ | https://sonarqube.com
 
+Slack integration (slack)[https://docs.travis-ci.com/user/notifications#Slack-notifications]
+
 # Java specifics
 
 https://devcenter.heroku.com/articles/java-support

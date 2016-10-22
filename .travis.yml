@@ -1,8 +1,10 @@
 language: java
 jdk:
 - oraclejdk8
-
 deploy:
   provider: heroku
   api_key:
     secure: avS4t1yPuyyVoySZ+C1tV2urv/SFZUc8Ri04czofzAMK4fGVLmHqAD6+LiC9pS+72qDTHl384WR/4JnJb0PR8RctNRI0waZQkS9BA6cqOObUjkz3ILPoYRquyrixGsOCOkPHo3FDMTZO7A8iCCrMDqsdtdviBb2RhHpEoQfFFoI=
+notifications:
+  slack:
+    secure: X/EQ8To1rudv8wVFhLqIf2bpuDh3Z/m96ulMzIngYQkcfd5/KenexB6qCGX/EIJUBP7V1gBddT3Zs4KXYpTkHc9bTKhet0aJAJoJg7XJS/1D4cCAw/CkzZVXXGxkMP/PeEU4gGKtHVTV+ueRgqluyc8uLlEND8u8D56N2NL9INk=
