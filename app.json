@@ -1,0 +1,32 @@
+{
+  "name": "boxing-user-management",
+  "description": "Spring boot testing app",
+  "scripts": {
+    "postdeploy": "bin/post-deploy.groovy",
+    "pr-predestroy": "bin/pred-destroy.groovy"
+  },
+  "env": {
+    "JAVA_OPTS": {
+      "required": true
+    },
+    "NEW_RELIC_APP_NAME": {
+      "required": true
+    },
+    "NEW_RELIC_LICENSE_KEY": {
+      "required": true
+    },
+    "NEW_RELIC_LOG": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
